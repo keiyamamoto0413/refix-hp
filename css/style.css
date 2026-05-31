@@ -1,0 +1,80 @@
+/* リセット */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 全体 */
+body {
+    font-family: 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* ヘッダー */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ナビゲーション */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 24px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+/* メインコンテンツ */
+main {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+main h2 {
+    font-size: 20px;
+    margin: 32px 0 16px;
+}
+
+main h3 {
+    font-size: 20px;
+    margin: 32px 0 16px;
+}
+
+/* テーブル */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+}
+
+th, td {
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f5f5f5;
+    width: 30%;
+}
+
+/* リンク */
+a {
+    color: #333;
+}
+
+a:hover {
+    color: #888;
+}
